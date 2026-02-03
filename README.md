@@ -24,3 +24,50 @@ This repository builds on top of that system.
 - Utilities that automate repetitive editor workflows
 - Scripts designed for large-scale or technical projects
 
+All operations are designed to be placed in: `AmuletMapEditor/plugins/operations/`
+
+
+and accessed through Amulet’s **Operations** tab.
+
+---
+
+## Usage Notes
+
+- Scripts are written for **Amulet 0.10.49**
+- Some operations rely on:
+  - Amulet Core
+  - PyMCTranslate
+  - Bedrock version-specific translators
+- Always back up worlds before running custom operations
+
+---
+
+## AI-Assisted Development Notice
+
+Some parts of the scripts in this repository were written or refined with the assistance of **AI tools**.
+
+This includes:
+- Boilerplate code
+- NBT parsing helpers
+- Export logic scaffolding
+- Documentation drafts
+
+All scripts were:
+- Reviewed
+- Tested
+- Adapted to real Amulet behavior
+
+---
+
+## License
+
+Unless stated otherwise, scripts in this repository are provided under the MIT License.
+
+Feel free to adapt, modify, and reuse them in your own Amulet workflows.
+
+---
+
+## Credits
+
+- Amulet Team — for Amulet Map Editor  
+  https://www.amuletmc.com/
